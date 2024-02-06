@@ -1,7 +1,6 @@
 <div align="center"><h1>🌐 TG File Stream Bot</h1>
 <b>An open-source Python Telegram bot to transmit Telegram files over HTTP.</b>
-
-</div><br>
+</div>
 
 ## **📑 INDEX**
 
@@ -14,22 +13,16 @@
   * [Locally](#d-1)
   * [Docker](#d-2)
 
-<br>
-
 ## Deploy on Heroku
-
 Press the below button to fast deploy to Heroku
 
 - [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 then goto the <a href="#variables">variables tab</a> for more info on setting up environmental variables.
 
-<br>
-
 <a name="installation"></a>
 
 ## ⚙️ Installation
-
 <a name="i-1"></a>
 
 **1.Install Python & Git:**
@@ -67,14 +60,11 @@ cd FileStreamBot
 ```
 
 <a name="i-3"></a>
-
 **4.Install requirements:**
 
 ```
 pip install -r requirements.txt
 ```
-
-<br>
 
 <a name="variables"></a>
 
