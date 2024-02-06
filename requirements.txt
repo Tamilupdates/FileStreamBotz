@@ -1,4 +1,5 @@
 telethon
+python-dotenv
 cryptg
 quart
 uvicorn
