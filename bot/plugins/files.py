@@ -17,12 +17,12 @@ async def user_file_handler(event: NewMessage.Event | Message):
     message = await send_message(event.message)
     message_id = message.id
 
-    dl_link = f'{Server.BASE_URL}/dl/{message_id}?code={secret_code}'
-    tg_link = f'{Server.BASE_URL}/file/{message_id}?code={secret_code}'
+    dl_link = f'{Server.BASE_URL}/dl/{secret_code}'
+    tg_link = f'{Server.BASE_URL}/file/{secret_code}'
     deep_link = f'https://telegram.me/{Telegram.BOT_USERNAME}?start=file_{message_id}_{secret_code}'
 
     if (event.document and 'video' in event.document.mime_type) or event.video:
-        stream_link = f'{Server.BASE_URL}/stream/{message_id}?code={secret_code}'
+        stream_link = f'{Server.BASE_URL}/stream/{secret_code}'
         await event.reply(
             message= MediaLinksText % {'dl_link': dl_link, 'tg_link': tg_link, 'tg_link': tg_link, 'stream_link': stream_link},
             buttons=[
@@ -61,11 +61,11 @@ async def channel_file_handler(event: NewMessage.Event | Message):
     message = await send_message(event.message)
     message_id = message.id
 
-    dl_link = f"{Server.BASE_URL}/dl/{message_id}?code={secret_code}"
-    tg_link = f"{Server.BASE_URL}/file/{message_id}?code={secret_code}"
+    dl_link = f"{Server.BASE_URL}/dl/{secret_code}"
+    tg_link = f"{Server.BASE_URL}/file/{secret_code}"
 
     if (event.document and "video" in event.document.mime_type) or event.video:
-        stream_link = f"{Server.BASE_URL}/stream/{message_id}?code={secret_code}"
+        stream_link = f"{Server.BASE_URL}/stream/{secret_code}"
 
         try:
             await event.edit(
