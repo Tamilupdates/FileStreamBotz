@@ -13,8 +13,8 @@
 * [**🕹 Deployment**](#deployment)
   * [Locally](#d-1)
   * [Docker](#d-2)
-* [**⛑️ Need help!**](#help)
-* [**❤️ Credits & Thanks**](#credits)
+
+<br>
 
 ## Deploy on Heroku
 
@@ -23,6 +23,8 @@ Press the below button to fast deploy to Heroku
 - [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 then goto the <a href="#variables">variables tab</a> for more info on setting up environmental variables.
+
+<br>
 
 <a name="installation"></a>
 
@@ -72,6 +74,8 @@ cd FileStreamBot
 pip install -r requirements.txt
 ```
 
+<br>
+
 <a name="variables"></a>
 
 ## 📝 Variables
@@ -109,14 +113,3 @@ docker build -t file-stream-bot .
 ```
 docker run -p 8080:8080 file-stream-bot
 ```
-
-<a name="help"></a>
-
-## ⛑️ Need help!
-- Ask questions or doubts [here](https://t.me/DrDiscussion).
-
-<a name="credits"></a>
-
-## ❤️ Credits & Thanks
-
-[**Dr.Caduceus**](https://github.com/TheCaduceus): Owner & developer of File Stream Bot.
