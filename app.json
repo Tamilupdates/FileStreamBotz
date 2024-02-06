@@ -1,0 +1,32 @@
+{
+    "name": "TG File Stream Bot",
+    "description": "A Pyrogram Telegram bot to access Telegram Files via the server.",
+    "keywords": [
+        "telegram",
+        "web",
+        "pyrogram",
+        "aiohttp",
+        "python",
+        "plugin",
+        "modular",
+        "media"
+      ],
+    "repository": "https://github.com/Tamilupdates/TGFileStreamBot",
+    "success_url": "/",
+    "website": "https://github.com/Tamilupdates/TGFileStreamBot",
+    "env": {
+        "CONFIG_FILE_URL": {
+            "description": "Config File URL",
+            "required": true
+        }
+    },
+    "buildpacks": [{
+        "url": "heroku/python"
+      }],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "Basic"
+        }
+    }
+  }

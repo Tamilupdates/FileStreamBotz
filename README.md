@@ -1,4 +1,4 @@
-<div align="center"><h1>🌐File Stream Bot</h1>
+<div align="center"><h1>🌐 TG File Stream Bot</h1>
 <b>An open-source Python Telegram bot to transmit Telegram files over HTTP.</b>
 
 <a href="https://t.me/DrFileStreamBot"><b>Demo Bot</b></a>
@@ -48,7 +48,7 @@ pkg install git -y
 
 **2.Download repository:**
 ```
-git clone https://github.com/TheCaduceus/FileStreamBot.git
+git clone https://github.com/Tamilupdates/TGFileStreamBot.git
 ```
 
 **3.Change Directory:**
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 <a name="variables"></a>
 
 ## 📝 Variables
-**The variables provided below should either be completed within the [config.py](https://github.com/TheCaduceus/FileStreamBot/blob/main/bot/config.py) file or configured as environment variables.**
+**The variables provided below should either be completed within the [config.py](https://github.com/Tamilupdates/TGFileStreamBot/blob/main/bot/config.py) file or configured as environment variables.**
 * `API_ID`|`TELEGRAM_API_ID`: API ID of your Telegram account, can be obtained from [My Telegram](https://my.telegram.org). `int`
 * `API_HASH`|`TELEGRAM_API_HASH`: API hash of your Telegram account, can be obtained from [My Telegram](https://my.telegram.org). `str`
 * `OWNER_ID`: ID of your Telegram account, can be obtained by sending **/info** to [@DrFileStreamBot](https://t.me/DrFileStreamBot). `int`
