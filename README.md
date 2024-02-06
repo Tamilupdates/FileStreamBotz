@@ -77,7 +77,7 @@ pip install -r requirements.txt
 * `BOT_USERNAME`: Username of your Telegram bot, create one using [@BotFather](https://t.me/BotFather). `str`
 * `BOT_TOKEN`: Telegram API token of your bot, can be obtained from [@BotFather](https://t.me/BotFather). `str`
 * `CHANNEL_ID`: ID of the channel where bot will forward all files received from users, can be obtained by forwarding any message from channel to [@ShowJsonBot](https://t.me/ShowJsonBot) and then looking from `forward_from_chat` key. `int`
-* `BOT_WORKERS`: Number of updates bot should process from Telegram at once, by default to 10 updates. `int`
+* `WORKERS`: Number of updates bot should process from Telegram at once, by default to 10 updates. `int`
 * `SECRET_CODE_LENGTH`: Number of characters that file code should contain, by default to 12 characters. `int`
 * `BASE_URL`: Base URL that bot should use while generating file links, can be FQDN and by default to `127.0.0.1`. `str`
 * `BIND_ADDRESS`: Bind address for web server, by default to `0.0.0.0` to run on all possible addresses. `str`

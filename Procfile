@@ -1,1 +1,1 @@
-web: python get_config.py && python -m bot
+web: python3 get_config.py && python3 -m bot
