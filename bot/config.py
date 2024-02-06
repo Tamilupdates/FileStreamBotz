@@ -1,12 +1,12 @@
 from os import environ as env
 
 class Telegram:
-    API_ID = int(env.get("API_ID", 1234))
-    API_HASH = env.get("API_HASH", "xyz")
+    API_ID = int(env.get("API_ID"))
+    API_HASH = env.get("API_HASH")
     OWNER_ID = int(env.get("OWNER_ID", 1234567890))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
-    BOT_USERNAME = env.get("BOT_USERNAME", "BotFather")
-    BOT_TOKEN = env.get("BOT_TOKEN", "1234:abcd")
+    BOT_USERNAME = env.get("BOT_USERNAME")
+    BOT_TOKEN = env.get("BOT_TOKEN")
     CHANNEL_ID = int(env.get("CHANNEL_ID", -100123456789))
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
