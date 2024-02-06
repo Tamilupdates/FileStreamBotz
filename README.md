@@ -16,8 +16,7 @@
 * [**⛑️ Need help!**](#help)
 * [**❤️ Credits & Thanks**](#credits)
 
-
-### Deploy on Heroku
+## Deploy on Heroku
 
 Press the below button to fast deploy to Heroku
 
